@@ -1,0 +1,162 @@
+body{
+    width: 90%;
+    margin:auto;
+	display:block;
+    background-image: url(img/FONDI3\ \(2\).png);
+}
+
+@font-face{
+    font-family: font-01;
+    src:url(fonts/Fuentes/APOLLO.otf);
+}
+@font-face{
+    font-family: font-02;
+    src:url(fonts/Fuentes/Belfina\ Husairy.ttf);
+}
+@font-face{
+    font-family: font-03;
+    src:url(fonts/Fuentes/Boiling-BlackDemo.ttf);
+}
+@font-face{
+    font-family: font-04;
+    src:url(fonts/Fuentes/Burgundy\ DEMO.otf);
+}
+@font-face{
+    font-family: font-05;
+    src:url(fonts/Fuentes/Pinkerston.otf);
+}
+
+h2#p1.p1{
+    margin-top: 5%;
+    text-align:center;
+   /* border: 2px solid blue;*/
+    font-family: font-04;
+    color: rgb(2, 0, 144);
+    text-shadow: 0 2px 5px #ffffff;
+    font-size:50px;
+    
+    
+}
+
+#encabezado.texto-encabezado img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float: right;
+    
+  
+}
+
+#encabezado.texto-encabezado p{
+    text-align: left;
+    padding-left: 10%;
+    
+    margin-top: 7%;
+    font-family:monospace;
+    font-size: 200%;
+    font-weight:bold;
+}
+
+#boton.boton {
+
+    margin-top: 80px;
+    align-items: center;
+    padding-left: 10px;
+    font-family:monospace;
+    font-weight:bold;
+}
+
+#boton.boton button{
+    width: 100%;
+    background-color: rgb(243, 158, 203);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+#boton.boton ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+#boton.boton ul li{
+
+    margin: 20px;
+    width: 150%;
+} 
+
+#titulo.titulo-1{
+    margin-top: 25px;
+    font-family:monospace;
+    font-size: 150%;
+    text-align: center;
+    background-color:rgb(85, 30, 185);
+    color: rgb(251, 243, 251);
+    padding:10px;
+}
+
+#portada1,#portada2,#portada3{
+    width: 49%;
+    padding-left: 17px;
+}
+
+
+
+footer.footer{
+    margin-top: 10%;
+}
+
+footer.footer p{
+   /* border: 2px solid rgb(0, 0, 0);*/
+    text-align: center;
+    font-family: font-04;
+    font-size: 20px;
+   height:  8%;
+
+
+}
+footer.footer img{
+   /* border: 2px solid rgb(0, 0, 0);*/
+    width: 7%;
+}
+
+@media only screen and (max-width: 767px) {
+    h2#p1.p1{
+        margin-top: 8%;
+        font-size:30px;
+        align-items: center;
+    }
+   
+    #encabezado.texto-encabezado img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        float: right;
+        
+     }
+    
+     #encabezado.texto-encabezado p{
+        font-size: 130%;
+    }
+    #boton.boton{
+    margin-top: 40px;
+    align-items: center;
+
+     }
+     
+     #boton.boton ul{
+        display:flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        padding-right: 16%;
+     }
+     #boton.boton ul li{
+       margin: 2px;
+       width: 150%;
+       
+     }
+    
+}
