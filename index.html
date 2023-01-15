@@ -1,63 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-   
-   
-    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rocio Tejerina Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
   
-    
-    <title>Rocio M. Tejerina</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    
-    <div id="encabezado" class="texto-encabezado">
-        <h2 id="p1" class="p1"> Hola! <br>  Me llamo Rocio M. Tejerina<br> Soy Developer Trainee</h2>
-        <img src="img/perfil-pic-2.png">
-        <p id="p2" class="p2">  Estudio Ing. en Sistemas y <br> recientemente estoy iniciandome en Javascript y Ruby</p>
-    </div>
 
-    <div id="boton" class="boton">
+  <div >
+    <header id="menu">
+    <nav>
         <ul>
-            <li>  <a href="docs/Rocio-Tejerina.pdf" target="_blank"><button class="btn btn1" >Resume|CV</button> </a> </li> 
-            <li> <a href="https://github.com/rociomercedes" target="_blank"> <button class="btn btn2">Github</button></a> </li>
-            <li> <a href="https://www.linkedin.com/in/rociomercedes-tejerina-/" target="_blank"> <button class="btn btn3"">Linkedin</button></a> </li>
-        </ul>
-           
-         
+		<li><a href="#">Inicio</a></li>
+		<li><a href="index.html#sobre-mi">Sobre mi</a></li>
+		<li><a href="index.html#habilidades">Skills</a></l>
+		<li><a href="index.html#portfolio">Proyectos</a></li>
+		<li><a href="index.html#contacto">Contacto</a></li>
+	 </ul>
+    </nav>
+</header>
+  </div>
+  
+  
+  <div id="principal">
+    <div class="saludo">
+      <p class="hola"> Hola! soy</p>
+      <p class="nombre"> Rocio M. <br>Tejerina</p>
+      <p class="dev"> Developer Trainee </p>
+    </div>
+    <div class="foto-1">
+      <img class="foto" src="./img/foto-01.PNG">
+    </div>
+  </div>
+
+  <div id="cv">
+    
+      <a href="https://drive.google.com/file/d/1DZ8asCZLqIfivxD6fCus4HHQ1bVHkx3u/view?usp=sharing" target="_blank"> 
+        <button class="cv-btn">
+        CV | Resume
+        </button>
+      </a>
+    
+  </div>
+
+  
+  <div id="sobre-mi">
+    <p class="titulo-1">Sobre mi</p>
+    <div class="parrafo-1">
+       <article class="parrafo-1"> Desde la adolescencia sentí curiosidad por la programación, así que de a poco comencé a inmergir en ella, con cursos, capacitaciones y de forma autodidacta, al mismo tiempo que estudio mi carrera universitaria.<br>
+Aún sigo preparándome para poder superarme cada día y poder lograr mis objetivos.<br>
+Por eso aquí, les presento mi portafolio de proyectos personales.
+       </article>
+
+    </div>
+  </div>
+
+
+
+
+  
+  <div id="habilidades">
+    <p class="titulo-2"> Skills</p>
+    <div class="listado-hab">
+      <div class="html5 li" alt="html5">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+      </div>
+      <div class="css3 li " alt="css3"> 
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+      </div>
+      <div class="javascript li " alt="javascript"> 
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+      </div>
+      <div class="bootstrap li " alt="bootstrap"> 
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+      </div>
+      <div class="c# li " alt="c#"> 
+      <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
+      </div>
+      <div class="SQLServer li " alt="SQLServer">     
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png">
+      </div>
+      <div class=".net li " alt="net core"><br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png">
+      </div>
+      <div class="idiomas li"> 
+        <img src="https://cdn-icons-png.flaticon.com/512/2104/2104994.png">
+        <br>Ingles  <br>C1 ADVANCED <br>
+      <a href="https://www.efset.org/cert/o2hEy7">
+      EF SET Certificate</a>
+      </div>
+    </div>
+    
+     
+  </div>
+  
+
+
+  
+  <div id="portfolio">
+    <p class="titulo-3"> Proyectos</p>
+    <div class="listado-proyectos">
+
+      <a href="https://replit.com/@rociomercedes/Menu-y-Cobro-de-Mesas-Resto?v=1" target="_blank"> 
+      <div class="p1 li">
+        <img src="./img/portada1 (1).png">
+        <p class="skill"> C#</p>
+        <p class="nombre"> Carga de menu y cobro de mesas</p>
+      </div>
+      </a>
+
+      <a href="https://replit.com/@rociomercedes/Alumnos-CRUD-ABML?v=1" target="_blank">
+      <div class="p2 li ">
+        <img src="./img/portada2.png">
+        <p class="skill">C#</p>
+        <p class="nombre"> CRUD de Alumnos</p>
+      </div>
+      </a>
+
+      <a href="https://replit.com/@rociomercedes/Sistema-Stock-CRUD-ABML?v=1" target="_blank">  
+      <div class="p3 li ">
+        <img src="./img/portada3.png">
+        <p class="skill">C#</p>
+        <p class="nombre">CRUD de un sistema de stock</p>
+      </div>
+      </a>
+
+      <a href="https://error-404.rociomercedes.repl.co" target="_blank"> 
+      <div class="p4 li ">
+        <img src="./img/portada4.PNG">
+        <p class="skill">Html | Css</p>
+        <p class="nombre">Pagina de error de carga</p>
+      </div>
+       </a>
+       
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer id="contacto"> 
+    <div class="listado-contacto">
+
+    
+    <div class="li">
+      <a href="https://github.com/rociomercedes" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png">
+      </a>
     </div>
 
-    <div id="proyectos" class="lista-proyectos">
-        <p id="titulo" class="titulo-1">Proyectos C#</p>
-
-        <a href="https://replit.com/@rossesbloom/Menu-y-Cobro-de-Mesas-Resto?v=1" target="_blank"> 
-            <img id="portada1" src="img/portada1.png" >
-        </a>
-
-        <a href="https://replit.com/@rossesbloom/Alumnos-CRUD-ABML?v=1" target="_blank">
-            <img id="portada2" src="img/portada2.png">
-        </a>
-
-        <a href="https://replit.com/@rossesbloom/Sistema-Stock-CRUD-ABML?v=1" target="_blank">
-            <img id="portada3" src="img/portada3.png">
-        </a>
-        
+    <div class="li">
+      <a href="https://www.linkedin.com/in/rociomercedes-tejerina-/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png">
+      </a>
     </div>
 
-    <footer class="footer">
-        <p> By Rocio M. Tejerina<img src="img/firma2.png"></p>
-    </footer>
+    <div class="li">
+      <a href="mailto:merced.rmt@gmail.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/60/60543.png">
+      </a>
+    </div>
+  </div>
+
+    <p class="derechos">© 2023 Rocio Mercedes Tejerina</p>
+  </footer>
+
+  
+  <script src="script.js"></script>
+
+ 
 </body>
 
 </html>
